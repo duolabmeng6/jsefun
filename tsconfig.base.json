@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "declaration": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "rootDir": "src",
+    "strict": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declarationMap": true
+  },
+  "include": ["src","src/**/*"]
+}

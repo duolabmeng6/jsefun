@@ -1,0 +1,35 @@
+{
+  "name": "jsefun",
+  "version": "1.0.8",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b && node push.js",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.17",
+    "@types/mime-types": "^2.1.4",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.0.2",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [
+    "jsefun"
+  ],
+  "author": "duolabmeng6",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monsoir/params-mapper.git"
+  }
+}
