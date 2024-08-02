@@ -32,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Monsoir/params-mapper.git"
+    "url": "git+https://github.com/duolabmeng6/jsefun.git"
   }
 }
