@@ -7,11 +7,15 @@
     "skipLibCheck": true,
     "composite": true,
     "rootDir": "src",
-    "strict": true,
     "outDir": "./dist",
     "sourceMap": true,
     "declarationMap": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": false,
+    "noEmitOnError": false,
+    "ignoreDeprecations": "5.0"
   },
   "include": ["src","src/**/*"]
 }

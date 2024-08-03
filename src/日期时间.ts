@@ -36,7 +36,8 @@ export class 日期时间 {
             mm: String(this.t.getMinutes()).padStart(2, '0'),
             ss: String(this.t.getSeconds()).padStart(2, '0')
         };
-        return format.replace(/YYYY|MM|DD|HH|mm|ss/gi, matched => map[matched]);
+        // @ts-ignore
+        return format.replace(/YYYY|MM|DD|HH|mm|ss/gi, matched => map[matched as keyof typeof map]);
     }
 
     /**

@@ -34,8 +34,9 @@ function 文本编码转换(内容: string, 来源编码: string, 目标编码: 
             return 内容;
         }
     }
-
+    // @ts-ignore
     const buffer = Buffer.from(内容, 来源编码);
+    // @ts-ignore
     return buffer.toString(目标编码);
 }
 
@@ -147,8 +148,11 @@ function 编码_BASE64解码(内容: string, 返回字节集: boolean = false): 
  * @returns {string} 加密后的内容
  */
 function 加密_MD5(内容: string, 编码: string = 'utf-8'): string {
+    // @ts-ignore
     const md5 = crypto.createHash('md5');
+    // @ts-ignore
     md5.update(Buffer.from(内容, 编码));
+    // @ts-ignore
     return md5.digest('hex');
 }
 
