@@ -1,10 +1,10 @@
 {
   "name": "jsefun",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -b && node push.js && standard-version",
+    "build": "tsc -b && node push.js",
     "publish": "npm publish"
   },
   "devDependencies": {
