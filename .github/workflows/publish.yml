@@ -23,6 +23,8 @@ jobs:
       - name: Build project
         run:
           node -v
+          pwd
+          ls -a
           npm run build
 
       - uses: JS-DevTools/npm-publish@v3
