@@ -4,3 +4,6 @@ export * from './编码转换';
 export * from './数组操作';
 export * from './日期时间';
 export * from './时钟';
+export * from './类型转换';
+export * from './算术运算';
+export * from './系统处理';
