@@ -21,11 +21,7 @@ jobs:
           npm install
 
       - name: Build project
-        run:
-          node -v
-          pwd
-          ls -a
-          npm run build
+        run: npm run build
 
       - uses: JS-DevTools/npm-publish@v3
         with:
