@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import * as system from '../src/系统处理';
+import * as system from '../src/核心支持库/系统处理';
 
 describe('系统处理测试', () => {
 

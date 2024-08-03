@@ -1,6 +1,6 @@
 import { describe, it, beforeEach } from 'mocha';
 import { expect } from 'chai';
-import { 到文本, 到字节集, 到数值, 到整数, 到时间, json到文本, json解析 } from '../src/类型转换';
+import { 到文本, 到字节集, 到数值, 到整数, 到时间, json到文本, json解析 } from '../src/核心支持库/类型转换';
 
 describe('类型转换功能测试', () => {
     it('应正确将字节数组转换为文本', () => {

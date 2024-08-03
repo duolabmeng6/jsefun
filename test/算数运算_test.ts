@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { describe, it, beforeEach } from 'mocha';
-import * as 算术运算 from '../src/算术运算';
+import * as 算术运算 from '../src/核心支持库/算术运算';
 
 describe('算术运算库', () => {
 

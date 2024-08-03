@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
-import { 日期时间, 取现行时间戳, 日期到时间戳, 取现行时间, 取现行时间2, now, 创建日期时间, 时间迭代 } from '../src/日期时间';
+import { 日期时间, 取现行时间戳, 日期到时间戳, 取现行时间, 取现行时间2, now, 创建日期时间, 时间迭代 } from '../src/核心支持库/日期时间';
 
 describe('测试日期时间类', () => {
     it('测试初始化', () => {

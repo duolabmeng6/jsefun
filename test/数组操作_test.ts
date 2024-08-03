@@ -1,6 +1,6 @@
 import {expect} from 'chai';
 import {describe, it} from 'mocha';
-import 数组 from '../src/数组操作'; // Assuming 数组.ts exports the 数组 class
+import 数组 from '../src/核心支持库/数组操作'; // Assuming 数组.ts exports the 数组 class
 
 describe('测试数组类', () => {
 

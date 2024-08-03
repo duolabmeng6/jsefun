@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { describe, it, beforeEach, afterEach } from 'mocha';
 import { setTimeout, clearTimeout } from 'timers';
-import { 时钟, 时钟周期事件 } from '../src/时钟';
+import { 时钟, 时钟周期事件 } from '../src/核心支持库/时钟';
 
 describe('时钟模块测试', () => {
     let 定时任务2运行状态: boolean = true;

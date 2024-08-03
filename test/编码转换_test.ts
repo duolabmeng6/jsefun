@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
-import * as 编码转换 from '../src/编码转换'; // Assuming 编码转换.ts exports the functions
+import * as 编码转换 from '../src/核心支持库/编码转换'; // Assuming 编码转换.ts exports the functions
 import * as iconv from 'iconv-lite';
 import * as crypto from 'crypto';
 
