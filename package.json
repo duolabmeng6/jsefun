@@ -1,11 +1,12 @@
 {
   "name": "jsefun",
-  "version": "1.0.14",
+  "version": "1.0.20",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b && node push.js",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/chai": "^4.3.17",
@@ -13,6 +14,7 @@
     "@types/mocha": "^10.0.7",
     "@types/node": "^22.0.2",
     "chai": "^5.1.1",
+    "husky": "^9.1.4",
     "mocha": "^10.7.0",
     "typescript": "^5.5.4"
   },

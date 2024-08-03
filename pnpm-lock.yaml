@@ -27,6 +27,9 @@ importers:
       chai:
         specifier: ^5.1.1
         version: 5.1.1
+      husky:
+        specifier: ^9.1.4
+        version: 9.1.4
       mocha:
         specifier: ^10.7.0
         version: 10.7.0
@@ -192,6 +195,11 @@ packages:
 
   he@1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+
+  husky@9.1.4:
+    resolution: {integrity: sha512-bho94YyReb4JV7LYWRWxZ/xr6TtOTt8cMfmQ39MQYJ7f/YE268s3GdghGwi+y4zAeqewE5zYLvuhV0M0ijsDEA==}
+    engines: {node: '>=18'}
     hasBin: true
 
   inflight@1.0.6:
@@ -510,6 +518,8 @@ snapshots:
   has-flag@4.0.0: {}
 
   he@1.2.0: {}
+
+  husky@9.1.4: {}
 
   inflight@1.0.6:
     dependencies:
