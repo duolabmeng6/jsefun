@@ -1,12 +1,11 @@
 {
   "name": "jsefun",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b && node push.js && standard-version",
-    "publish": "npm publish",
-    "release": "standard-version"
+    "publish": "npm publish"
   },
   "devDependencies": {
     "@types/chai": "^4.3.17",
@@ -15,7 +14,6 @@
     "@types/node": "^22.0.2",
     "chai": "^5.1.1",
     "mocha": "^10.7.0",
-    "standard-version": "^9.5.0",
     "typescript": "^5.5.4"
   },
   "keywords": [
