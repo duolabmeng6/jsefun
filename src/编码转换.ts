@@ -1,10 +1,7 @@
 import * as chardet from 'chardet';
-import * as base64 from 'base64-js';
 import * as crypto from 'crypto';
-import { parse } from 'url';
 import * as iconv from 'iconv-lite';
 import crc32 from 'buffer-crc32';
-import * as buffer from "buffer"; // Ensure buffer-crc32 package is installed
 
 
 /**
