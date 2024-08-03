@@ -3,7 +3,6 @@ import { describe, it } from 'mocha';
 import * as 编码转换 from '../src/编码转换'; // Assuming 编码转换.ts exports the functions
 import * as iconv from 'iconv-lite';
 import * as crypto from 'crypto';
-import crc32 from 'buffer-crc32'; // Ensure buffer-crc32 package is installed
 
 describe('测试编码转换函数', () => {
     it('测试编码_检查 UTF-8', () => {
